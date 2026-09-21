@@ -8,7 +8,7 @@
 <body>
     <!--Cabeçalho-->
     <header> 
-        <h1></h1>
+        <h1>Cores, Imagens e Links</h1>
     </header>
     <main>
         <!--Cores em HTML-->
@@ -24,8 +24,42 @@
                 <p style="background-color: black; color: rgb(252, 3, 252);">Fundo do texto em uma cor específica!</p>
             </section>
             <hr>
-            
-        </h2>
+            <!--Imagem como elemento da página-->
+            <section>
+                <img src="assets/fundo.jpg" alt="Teste" title="Teste">
+            </section>
+            <hr>
+            <!--Imagem como Background-->
+            <section>
+                <div style="
+                    border: 1px solid red;
+                    width: 500px;
+                    height: 500px;
+                    color: rgb(0, 68, 255);
+                    text-align: center;
+                    background-image: url('assets/fundo.jpg');
+                    background-size: 200px 200px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                     " >
+                    <h2>Imagem como background</h2>
+                    <p>Esta seção tem uma imagem de fundo.</p>
+                </div>
+            </section>
+            <hr>
+            <!--Vídeos-->
+            <section>
+                <h1>Vídeos em HTML</h1>
+                <video src="" controls autoplay loop width="560" height="315">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </section>
+            <hr>
+            <section>
+                <h1>Vídeos Externos</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uZn67dD03ac?si=25ru7ZR-PhrowW0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1790003559555!6m8!1m7!1sBtUKF_6g6ntS8Gkj17Edbw!2m2!1d-21.44982482662064!2d-47.00816213373864!3f69.44687391955011!4f-21.0699137078916!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </section>
     </main>
 </body>
 </html>
