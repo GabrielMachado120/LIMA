@@ -1,0 +1,1 @@
+Foi utilizada a cor azul porque ela transmite confiança, profissionalismo, segurança e seriedade. É uma boa escolha para empresas de tecnologia, educação e indústria, pois passa uma imagem de competência e credibilidade.
