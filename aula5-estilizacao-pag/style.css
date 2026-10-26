@@ -1,0 +1,68 @@
+* {  /* seletor universal */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.destaque { /* seletor por classe */
+    color: blue;
+    font-weight: bold;
+}
+#titulo-principal { /* seletor por id */
+    color: red;
+    text-align: center;
+}
+p { /* seletor por tag */
+    font-size: 18px;
+    line-height: 1.5;
+}
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+}
+h4 {
+    color: chocolate;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    display: block; /* Elemento se comporta como um bloco */
+    margin: auto; /* Centraliza o elemento horizontalmente se tiver um width definido */
+}
+ol {
+    list-style-type: square;
+    list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJyhXZV8y8QYLmZ4fhjHd7PYtRRJR-KX2If6TEiw_bLqDEXsqj8q4VALe&s=10");
+    margin: 20px;
+    padding: 50px;
+}
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 5px;
+}
+ /* Link Normal */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+/* Link já visitado*/
+a:visited {
+    color: green;
+}
+/* Quando o mouse passa por cima */
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 100px;
+}
+/* Enquanto o link é clicado */
+a:active {
+    color: orange;
+}
