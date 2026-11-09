@@ -5,12 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        .container {
-            border: 3px solid black;
-            width: 400px;
-            height: 400px;
-            text-align: center;
-        }
+      .container {
+        border: 3px solid black;
+        width: 400px;
+        height: 600px;
+        text-align: center;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        background-color: dodgerblue;
+      }
+      span {
+        font-size: 20px;
+        vertical-align: top;
+      }
+      .item1 {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 225);
+        display: inline-block;
+      }
+      .item2 {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(255, 0, 0);
+        display: inline-block;
+      }
     </style>
   </head>
   <body>
@@ -22,10 +43,12 @@
         in vero esse.
       </p>
       <button>Lorem</button>
-    </div>
-    <div>
-        <img>
+      <div>
+        <img />
         <span>Exemplo vertical-align</span>
+      </div>
+      <div class="item1">Item1</div>
+      <div class="item2">Item2</div>
     </div>
   </body>
 </html>
