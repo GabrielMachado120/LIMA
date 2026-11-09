@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    width: 120px;
+    height: 120px;
+    margin-left: 1700px;
+    margin-top: -1000px;
+}
+.titulo {
+    margin-top: 40px;
+}
+.oq-é {
+    text-align: center;
+    margin: 100px;
+}
+#lista {
+    list-style: none;
+    background-color: darkblue;
+    display: flex;
+}
+a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: black;
+    color: white; 
+}
+.servicos {
+    text-align: center;
+}
+li {
+    margin: 20px;
+}
+table, td, th {
+    margin-left: 500px;
+    border: 1px solid black;
+    width: 1000px;
+    height: 150px;
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 200px;
+    margin-left: 450px;
+    font-size: 30px;
+}
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+}
+#sobre {
+    margin-left: 1300px;
+    margin-top: -50px;
+}
+#nome {
+    margin-top: 35px;
+}
+p {
+    font-size: 30px;
+}
+h2, h3 {
+    font-size: 30px;
+}
